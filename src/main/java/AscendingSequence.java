@@ -1,7 +1,7 @@
 public class AscendingSequence {
 
-    public int[]ascendingSequenceAlgorithm(int start, int end, int step) {
-        if(step > 0 && start < end){
+    public int[] ascendingSequenceAlgorithm(int start, int end, int step) {
+        if (step > 0 && start < end) {
             int[] result = new int[end - start + 1];
 
 //            int j = 0;               //сложнее способ, через индексы массива
@@ -12,8 +12,8 @@ public class AscendingSequence {
 //                }
 //            }
 
-            for(int i = 0; i < result.length; i++){ //простой способ через значения индексов
-                if(start <= end){
+            for (int i = 0; i < result.length; i++) { //простой способ через значения индексов
+                if (start <= end) {
                     result[i] = start;
                     start += step;
                 }

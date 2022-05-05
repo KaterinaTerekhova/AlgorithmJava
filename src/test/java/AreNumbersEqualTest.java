@@ -6,49 +6,49 @@ public class AreNumbersEqualTest {
 
     @Order(1)
     @Test
-    public void testAreNumbersEqualHappyPathPositiveNum(){
+    public void testAreNumbersEqualHappyPathPositiveNum() {
         int ff = 89;
         int gg = 89;
         int expectedResult = 0;
 
         AreNumbersEqual ane = new AreNumbersEqual();
-        int actualResult = AreNumbersEqual.areNumbersEqualAlgorithm(ff,gg);
+        int actualResult = AreNumbersEqual.areNumbersEqualAlgorithm(ff, gg);
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
     @Order(2)
     @Test
-    public void testAreNumbersEqualHappyPathOneNegativeNum(){
+    public void testAreNumbersEqualHappyPathOneNegativeNum() {
         int ff = -89;
         int gg = 89;
         int expectedResult = -1;
 
         AreNumbersEqual ane = new AreNumbersEqual();
-        int actualResult = AreNumbersEqual.areNumbersEqualAlgorithm(ff,gg);
+        int actualResult = AreNumbersEqual.areNumbersEqualAlgorithm(ff, gg);
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
     @Order(3)
     @Test
-    public void testAreNumbersEqualHappyPathAnotherNegativeNum(){
+    public void testAreNumbersEqualHappyPathAnotherNegativeNum() {
         int ff = 89;
         int gg = -89;
         int expectedResult = 1;
 
         AreNumbersEqual ane = new AreNumbersEqual();
-        int actualResult = AreNumbersEqual.areNumbersEqualAlgorithm(ff,gg);
+        int actualResult = AreNumbersEqual.areNumbersEqualAlgorithm(ff, gg);
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
     @Order(4)
     @Test
-    public void testAreNumbersEqualINegativePath(){
+    public void testAreNumbersEqualINegativePath() {
         int ff = 89;
         int gg = -89;
         int expectedResult = 0;
 
         AreNumbersEqual ane = new AreNumbersEqual();
-        int actualResult = AreNumbersEqual.areNumbersEqualAlgorithm(ff,gg);
+        int actualResult = AreNumbersEqual.areNumbersEqualAlgorithm(ff, gg);
         Assertions.assertEquals(expectedResult, actualResult);
     }
 

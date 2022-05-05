@@ -11,7 +11,7 @@ public class BiggerValueTest {
 
 
         BiggerValue bv = new BiggerValue(); //объект
-        int actualResult = BiggerValue.biggerValueAlgorithm(numA,numB);  // Act
+        int actualResult = BiggerValue.biggerValueAlgorithm(numA, numB);  // Act
 
         Assertions.assertEquals(expectedResult, actualResult);
     }

@@ -6,7 +6,7 @@ public class SumArrayTest {
     @Order(1)
     @Test
     public void sumArrayHappyPathPositiveNum() {
-        int[] getNew = new int[]{1,2,3,4,5};
+        int[] getNew = new int[]{1, 2, 3, 4, 5};
         int expectedResult = 15;
 
 
@@ -19,7 +19,7 @@ public class SumArrayTest {
     @Order(2)
     @Test
     public void sumArrayHappyPathNegativeNum() {
-        int[] getNew = new int[]{-7,-3};
+        int[] getNew = new int[]{-7, -3};
         int expectedResult = -10;
 
 
