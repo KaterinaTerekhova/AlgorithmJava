@@ -21,7 +21,7 @@ public class PeakElement {
                     }
                 }
 
-                System.out.println(countArray);
+                //System.out.println(countArray);
 
                 result = new int[countArray];
                 countArray = 0;
